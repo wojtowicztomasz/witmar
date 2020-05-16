@@ -1,13 +1,25 @@
-body {background:#0a5dac38;
+body {
+  background: #0a5dac38;
+}
+section {
+  background: #62659125;
+}
+h1 {
+  color: red;
+}
+h2 {
+  color: #1a2a49;
+}
 
+.kolorh2-stronaglowna {
+  color: #a03430;
 }
-section {background: #62659125;}
-h1 {color:  red
+#kolorh2-oferta {
+  color: #d62e2e;
 }
-h2{color:#1a2a49;}
-
-.kolorh2-stronaglowna {color:#a03430}
-#kolorh2-oferta {color:#d62e2e}
-nav a {color:#f80015;
+nav a {
+  color: #f80015;
 }
-a {color:#11095e}
+a {
+  color: #11095e;
+}
