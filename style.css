@@ -1,11 +1,40 @@
+
+nav {
+  background-color: black;
+  border-radius:200px;
+  color:white;
+  padding: 3px;
+  position:fixed;
+}
+img { width:40vw;
+
+float:right;}
+
+nav a {
+  color: white;
+  margin: 10px}
+
+
+  
+  
+main {
+  padding-top:30px;
+  max-width: width 30px;
+}
+
 body {
   background: #0a5dac38;
+  font-family:georgia;
 }
 section {
-  background: #62659125;
+  background: #5d5e6625;
 }
 h1 {
-  color: red;
+  padding-left:10px;
+  color: #720606;
+  border-radius:5px;
+  background: #212f6d94 ; 
+  font-family:Georgia ;
 }
 h2 {
   color: #1a2a49;
@@ -17,9 +46,11 @@ h2 {
 #kolorh2-oferta {
   color: #d62e2e;
 }
-nav a {
-  color: #f80015;
+
+
+footer {
+  color: black;
 }
-a {
-  color: #11095e;
+footer a {
+  color: blue
 }
