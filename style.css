@@ -1,56 +1,109 @@
-
-nav {
-  background-color: black;
-  border-radius:200px;
-  color:white;
-  padding: 3px;
-  position:fixed;
+html {
+  box-sizing: border-box;
 }
-img { width:40vw;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-float:right;}
-
-nav a {
+.navigation {
+  background: black;
+  border-radius: 8px;
+  padding: 5px;
+  position: fixed;
+}
+.navigation__link {
   color: white;
-  margin: 10px}
+  display: inline-block;
+  margin-right: 20px;
+}
 
+.navigation__link--homepage {
+  color: gray;
+}
+.body {
+  background: rgb(62, 60, 108);
+  background: linear-gradient(
+    90deg,
+    rgba(62, 60, 108, 0.11526608934589466) 0%,
+    rgba(0, 1, 46, 0.644677854051777) 48%,
+    rgba(34, 34, 98, 0.8771708512506565) 99%
+  );
+  max-width: 1000px;
+  margin: auto;
+}
 
-  
-  
+img {
+  width: 40vw;
+
+  float: right;
+}
+
 main {
-  padding-top:30px;
-  max-width: width 30px;
+  padding-top: 90px;
+  max-width: width 100px;
+}
+.logo {
+  color: rgb(231, 3, 3);
+  border-radius: 5px;
+  background: #67719e;
+  font-family: Georgia;
+  padding: 5px 10px 5px 10px;
+  width: 170px;
+  position: fixed;
+  margin-top: 35px;
 }
 
-body {
-  background: #0a5dac38;
-  font-family:georgia;
-}
-section {
+.section__article {
   background: #5d5e6625;
+  border: 1px #1f0e5c solid;
+  margin-bottom: 10px;
+  padding: 5px;
 }
-h1 {
-  padding-left:10px;
-  color: #720606;
-  border-radius:5px;
-  background: #212f6d94 ; 
-  font-family:Georgia ;
-}
-h2 {
+
+.section__article--title {
   color: #1a2a49;
 }
 
-.kolorh2-stronaglowna {
-  color: #a03430;
-}
-#kolorh2-oferta {
-  color: #d62e2e;
-}
-
-
-footer {
+.section__article--text {
   color: black;
 }
-footer a {
-  color: blue
+
+.podstrona {
+  margin: 10px;
+
+  padding: 8px;
+}
+
+.podstrona__tytul {
+  color: #1a2a49;
+}
+
+.podstrona__text {
+  padding: 10px;
+}
+.footer {
+  color: black;
+  display: inline-block;
+}
+.footer__link {
+  color: rgb(7, 6, 75);
+}
+
+.form__item {
+  display: block;
+  width: 100%;
+
+}
+.form{
+  width:600px;
+}
+
+.label__form{
+  display:block;
+}
+.form__textarea{
+  width:100%;
+  height:100px;
 }

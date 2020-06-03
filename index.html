@@ -4,29 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WITMAR - Układanie kostki brukowej</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body>
-    <header>  
-      <nav>
-        <a href="index.html">O nas</a>
-        <a href="oferta.html">Oferta</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="realizacje.html">Kontakt</a>
-
+  <body class="body">
+    <header>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >O nas</a
+        >
+        <a class="navigation__link" href="oferta.html">Oferta</a>
+        <a class="navigation__link" href="realizacje.html">Realizacje</a>
+        <a class="navigation__link" href="Kontakt.html">Kontakt</a>
       </nav>
+      <h1 class="logo">WITMAR</h1>
     </header>
     <main>
-      <header>
-        <h1>WITMAR </h1>
-      </header>
       <img src="witmar.jpg" alt="Zdjęcie Zakład" />
 
-      <section>
-        <h2 class="kolorh2-stronaglowna">Historia</h2>
+      <section class="section__article">
+        <h2 class="section__article--title section__articletitle--js">
+          Historia
+        </h2>
 
-        <p>
+        <p class="section__article--text">
           Firmę P.P.U.H. WITMAR s.c. założyliśmy 27 maja 1992 roku, jako małą,
           trzy osobową spółkę handlującą używanymi częściami samochodowymi.
           Szybko nasza oferta została powiększona o nowe części oraz serwis
@@ -46,35 +48,38 @@
         </p>
       </section>
 
-      <section>
-        <h2 class="kolorh2-stronaglowna">Nasze Priorytety</h2>
+      <section class="section__article">
+        <h2 class="section__article--title">Nasze Priorytety</h2>
 
         <article>
           WITMAR s.c. opiera się na kilku istotnych wyznacznikach, do których
           należą:
-
-          <h4>Fachowa wiedza</h4>
-          <p>
-            Zatrudnianie odpowiednio wykształconej kadry oraz nieustanne jej
-            doskonalenie w zakresie posiadanej wiedzy i
-            umiejętności,doświadczenie – bazowanie na sprawdzonych pracownikach,
-            metodach pracy i realizacji
-          </p>
-          <h3>Współpraca z najlepszymi</h3>
-          <p>Jako kontrahentów wybieramy tylko sprawdzone firmy</p>
-          <h3>Profesjonalne zarządzanie</h3>
-          <p>
-            Wiemy, że o powodzeniu każdej inwestycji decyduje wiele czynników, z
-            których jedną z ważniejszych jest odpowiednie zarządzanie zasobami
-            ludzkimi, czasem, materiałami i dostępnym sprzętem
-          </p>
+          <section class="podstrona">
+            <h3 class="podstrona__tytul">Fachowa wiedza</h3>
+            <p class="podstrona__text">
+              Zatrudnianie odpowiednio wykształconej kadry oraz nieustanne jej
+              doskonalenie w zakresie posiadanej wiedzy i
+              umiejętności,doświadczenie – bazowanie na sprawdzonych
+              pracownikach, metodach pracy i realizacji
+            </p>
+            <h3 class="podstrona__tytul">Współpraca z najlepszymi</h3>
+            <p class="podstrona__text">
+              Jako kontrahentów wybieramy tylko sprawdzone firmy
+            </p>
+            <h3 class="podstrona__tytul">Profesjonalne zarządzanie</h3>
+            <p class="podstrona__text">
+              Wiemy, że o powodzeniu każdej inwestycji decyduje wiele czynników,
+              z których jedną z ważniejszych jest odpowiednie zarządzanie
+              zasobami ludzkimi, czasem, materiałami i dostępnym sprzętem
+            </p>
+          </section>
         </article>
       </section>
 
-      <section>
-        <h2 class="kolorh2-stronaglowna">Obszary działalności</h2>
+      <section class="section__article">
+        <h2 class="section__article--title">Obszary działalności</h2>
 
-        <p>
+        <p class="section__article--text">
           Zakres naszej działalności obejmuje budowanie dróg, placów z kostki
           brukowej oraz granitowej wykonywanie robót ziemnych, podbudów,
           sprzedaż kostki brukowej, usługi sprzętem budowlanym oraz produkcję
@@ -85,10 +90,10 @@
         </p>
       </section>
 
-      <section>
-        <h2 class="kolorh2-stronaglowna">Szczególne osiągnięcia</h2>
+      <section class="section__article">
+        <h2 class="section__article--title">Szczególne osiągnięcia</h2>
 
-        <p>
+        <p class="section__article--text">
           Firma WITMAR s.c. jest laureatem wielu prestiżowych nagró d, między
           innymi Podkarpackiej Nagrody Gospodarczej oraz Przedsiębiorstwo Fair
           Play 2012-2015. O jakości naszych realizacji świadczą liczne
@@ -97,11 +102,11 @@
         </p>
       </section>
       <footer>
-        <div class= "footer">  Współpracują z nami: </div>
-        
-        <a class= "a" href="https://www.bruk-bet.pl">Bruk-Bet</a>,
-        <a href="https://www.polbruk.pl">Polbruk</a>,
-        <a href="https://jadar.pl">Jadar</a>
+        <div class="footer">Współpracują z nami:</div>
+
+        <a class="footer__link" href="https://www.bruk-bet.pl">Bruk-Bet</a>,
+        <a class="footer__link" href="https://www.polbruk.pl">Polbruk</a>,
+        <a class="footer__link" href="https://jadar.pl">Jadar</a>
       </footer>
     </main>
     <script src="main.js"></script>

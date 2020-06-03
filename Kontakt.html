@@ -1,41 +1,100 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt | WITMAR - Układanie kostki brukowej</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
+  <body class="body">
     <header>
-        <nav>
-            <a href="index.html">O nas</a>
-            <a href="oferta.html">Oferta</a>
-            <a href="realizacje.html">Realizacje</a>
-            <a href="realizacje.html">Kontakt</a>
-
-
-        </nav>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >O nas</a
+        >
+        <a class="navigation__link" href="oferta.html">Oferta</a>
+        <a class="navigation__link" href="realizacje.html">Realizacje</a>
+        <a class="navigation__link" href="Kontakt.html">Kontakt</a>
+      </nav>
+      <h1 class="logo">WITMAR</h1>
     </header>
+
     <main>
-        <h2 id="kolorh2-oferta">Nasza oferta</h2>
+      <section class="section__article">
+        <h2 class="section__article--title">Kontakt</h2>
+        <form method='post' action="https://dev.cotenfrontend.pl"
+        class="form">
+          <p>
+            <label for="ImieNazwisko"> Imię i Nazwisko: </label>
+            <input
+            required
+              class="form__item"
+              id="ImieNazwisko"
+              placeholder="Wpisz swoje imię i nazwisko"
+              name=" ImieNazwisko"
+            />
+          </p>
+          <p>
+            <label for="e-mail"> Adres e-mail: </label>
+            <input
+            required
+              class="form__item"
+              id="email"
+              placeholder="Wpisz swój e-mail"
+              name=" email"
+              type="email"
+            />
+          </p>
+          <p>
+            <label for="tel"> Nr kontaktowy: </label>
+            <input
+              class="form__item"
+              id="tel"
+              placeholder="Podaj nr kontaktowy"
+              name=" tel"
+              type="tel"
+            />
+          </p>
 
+          <p>
+            <label for="temat"> Temat wiadomości: </label>
+            <input
+              class="form__item"
+              id="temat"
+              placeholder="Wpisz temat wiadomości"
+              name=" temat"
+            />
+          </p>
+          <p>
+            <label class="label__form" for="text"> Treść wiadomości: </label>
+            <textarea
+            required
+            class='form__textarea'
+            placeholder="Wpisz treść"
+              name="Treść wiadomości"
+              id="text"
+           "
+            ></textarea>
+          </p>
+          <p>
+            <label
+              ><input required name="agreement" type="checkbox" value="agree" />Wyrażam
+              zgodę na wykorzystanie podanych danych osobowych w celu
+              przygotowania oferty i akceptuje Politykę prywatności
+            </label>
+          </p>
+          <p>
+            <label
+              ><input  type="submit" value="Wyślij" />
+            </label>
+          </p>
+        </form>
 
-        <article>
-            <h4>Usługi sprzętowe</h4>
-            <h4>Roboty ziemne i podbudowy</h4>
-            <h4> Nawierzchnie z kostki granitowej</h4>
-            <h4> Nawierzchnie z kostki brukowej</h4>
-          
-            <h4> Sprzedaż kostki brukowej</h4>
-            <h4> Niwelacja terenu</h4>
-        </article>
-       
+        <article class="section__article--text"></article>
+      </section>
     </main>
-    <script src="main.js"> </script>
-
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
